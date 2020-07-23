@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>positioning</title>
+	<style type="text/css">
+		
+		.third{
+			color: blue;
+		}
+		#iabur{
+			color: red;
+		}
+		.underline{
+			color: blue;
+			text-decoration: underline;
+		}
+		#first{
+			color: red;
+			background: yellow;
+			width: 200px;
+			position: absolute;
+			left: 100px;
+			top: 100px;
+			z-index: 2;
+			opacity: 0.5;
+			
+		}
+		#tiptip{
+			background: pink;
+			width: 200px;
+			position: relative;
+			left: 100px;
+			top: 100px;
+			z-index: 1;
+
+			
+		}
+		
+
+	</style>
+</head>
+<body>
+	<div id="first">
+	<p>wow, css is awesome</p>
+	<p>what is your name</p>
+     </div>
+     <div id="tiptip">
+	<h1 class="third">how are you dear friend</h1>
+	<h2 id="iabur">using id. <span class="underline">this is span text</span></h2>
+    </div>
+    <p>This paragraph is not floated</p>
+    <p>absolute position works out of the flow of the page
+    fixed position always fixed and like absolute positioning</p>
+</body>
+</html>
